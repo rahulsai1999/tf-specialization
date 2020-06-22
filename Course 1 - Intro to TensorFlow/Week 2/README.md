@@ -1,4 +1,4 @@
-## Week 2
+## Week 2 - Introduction to Computer Vision
 
 ### An Introduction to Computer Vision
 

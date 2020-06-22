@@ -1,4 +1,4 @@
-## Week 1
+## Week 1 - A new programming paradigm
 
 ### A primer to machine learning
 
