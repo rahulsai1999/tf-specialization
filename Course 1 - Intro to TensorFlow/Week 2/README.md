@@ -37,7 +37,7 @@ fashion_mnist = keras.datasets.fashion_mnist
 ```py
 # normalise the data here by dividing with 255.0
 model = keras.Sequential([
-    keras.layer.Flatten(input_shape=(28,28)),
+    keras.layers.Flatten(input_shape=(28,28)),
     keras.layers.Dense(128,activation=tf.nn.relu),
     keras.layers.Dense(10,activation=tf.nn.softmax)
 ])
