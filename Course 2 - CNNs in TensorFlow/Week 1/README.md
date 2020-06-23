@@ -1,4 +1,4 @@
-## Week 1 - Larger Dataset
+## Week 1 - Exploring a Larger Dataset
 
 - Continuing from the previous course, this first week focuses on working with a larger dataset i.e. Cats Vs. Dogs dataset from Kaggle.
 - This dataset contains overr 25,000 images clearly labelled and separated into training and validation sets.
