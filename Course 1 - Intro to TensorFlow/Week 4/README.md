@@ -6,7 +6,8 @@
 - Larger images in real-world scenarios may contain images which ahve features present in different areas of the image. Some images can contain multiple subjects in them.
 - The Fashion MNIST and the MNIST datasets were inbuilt and were handily split into the training and test sets along with proper labelling. This is not the case in the real-world.
 - That's where the image generator API from tensorflow comes into picture. The image generator API can traverse directories and subdirectories to find images and automatically generate labels with their respective filenames.
-  ![image generator](./images/imgGen.jpg)
+
+![image generator](./images/imgGen.jpg)
 
 **Code**
 

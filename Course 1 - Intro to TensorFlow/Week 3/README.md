@@ -7,11 +7,16 @@ In the previous sections, we were using deep neural networks for working with im
 - From the aforementioned description, we can say that the primary objective of the convolution process is to condense the details of the image down to the most important features.
 - Most image processing tasks might involve passing a filter over an image to change the pixel values of the underlying image.
 - **Convolution**can be visualised as a filter which takes the neighbouring pixels into consideration. If our filter is 3x3 then we can look at the neigbouring pixels and multiply the value with the the corresponding filter value to get the new pixel value.
-  ![Convolution](./images/convolution.jpg)
+
+![Convolution](./images/convolution.jpg)
+
 - Some convolutions can change the image in such a way that certain features of the image can be emphasized. For reference, the image below uses a filter which emphasizes vertical lines in the photo.
-  ![Conv-trans](./images/conv-trans.jpg)
+
+![Conv-trans](./images/conv-trans.jpg)
+
 - **Pooling** is a process of compressing the images which is used alongside the convolution process. It goes through the image in a fixed number of pixels per time and chooses the highest number of pixel in that frame. This process continues till the whole image is compressed.
-  ![Pooling](./images/pooling.jpg)
+
+![Pooling](./images/pooling.jpg)
 
 ---
 

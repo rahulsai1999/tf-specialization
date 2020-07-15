@@ -5,7 +5,8 @@
   [Training Set](https://storage.googleapis.com/laurencemoroney-blog.appspot.com/rps.zip)
   [Test Set](https://storage.googleapis.com/laurencemoroney-blog.appspot.com/rps-test-set.zip)
 - The folder structure for the ImageDataGenerator is given below:
-  ![structure](./images/structure.jpg)
+
+![structure](./images/structure.jpg)
 
 ### Going from binary to multiclass
 

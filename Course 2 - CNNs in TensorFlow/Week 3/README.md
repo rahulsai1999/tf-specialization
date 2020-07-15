@@ -64,12 +64,13 @@ model.compile(optimizer=RMSProp(lr=0.0001),loss='binary_crossentropy',metrics=['
   - Neighboring neurons can often end up with similar weights leading to overfitting
   - A specific neuron can over-weigh the input from a neuron in the previous layer thereby, overspecializing a result.
 
-  ![dropout](./images/dropout.jpg)
+![dropout](./images/dropout.jpg)
 
 - The graph below show the difference before and after dropout
 
-  ![before](./images/beforedp.jpg)
-  ![after](./images/afterdp.jpg)
+![before](./images/beforedp.jpg)
+
+![after](./images/afterdp.jpg)
 
 **Code**
 

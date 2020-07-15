@@ -47,7 +47,9 @@ model = keras.Sequential([
 
 - **Flatten Layer:** The images are in the size 28x28. The flatten layer takes these images and turns it into a simple linear array.
 - **Hidden Layer:** The hidden layer here consists of 128 neurons. Each neuron takes the 784 values and associates a particular weight to it.
-  ![hidden](./images/hidden.jpg)
+
+![hidden](./images/hidden.jpg)
+
 - **Softmax Layer:** The last layer consists of 10 classes into which the image is classified into.
 
 - Note: For color images, more hidden layers can be often necessary.
